@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>탕정중 가이드</title>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="twotone.css">
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(function(){
+            $('img[usemap]').rwdImageMaps();
+          });
+    </script>
+    <div>
+        <img src="image/swwLOGO.png" alt="SWW 로고" usemap="#map" width="1024" height="863">
+        <map name="#map">
+            <area shape="rect" alt="" title="개발자 " coords="446,2,590,182" href="DevIntro/index.html" target="" />
+            <area shape="rect" alt="" title="" coords="760,204,936,380" href="" target="" />
+            <area shape="rect" alt="" title="" coords="88,222,260,358" href="" target="" />
+            <area shape="rect" alt="" title="" coords="768,508,940,656" href="" target="" />
+            <area shape="rect" alt="" title="" coords="436,698,600,862" href="" target="" />
+            <area shape="rect" alt="" title="" coords="112,496,236,672" href="" target="" />
+	    </map>
+    </div>
+    </body>
+</html>
